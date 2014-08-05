@@ -109,5 +109,3 @@ CREATE TABLE `ssy_pay_channel` (
   `pay_channel_name` varchar(64) not null,
   PRIMARY KEY (`pay_channel_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin
-
-/**/
