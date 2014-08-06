@@ -23,3 +23,11 @@ REQUEST_URI=/index.php
 in F:\ssy\www\protected\views\layouts\main.php (51)
 in F:\ssy\www\protected\views\layouts\column1.php (6)
 in F:\ssy\www\protected\controllers\SiteController.php (32)
+2014/08/06 21:29:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post".' in F:\ssy\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\ssy\www\framework\web\CWebApplication.php(141): CWebApplication->runController('post')
+#1 F:\ssy\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\ssy\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=post
+---
